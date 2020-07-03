@@ -1,6 +1,12 @@
 import pygame
 import random
 import time
+try:
+    import pkg_resources.py2_warn
+    
+except ImportError:
+    pass
+
 
 pygame.init()
 dis = pygame.display.set_mode((800,600))
